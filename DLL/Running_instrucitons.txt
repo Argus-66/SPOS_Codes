@@ -1,0 +1,4 @@
+javac SampleDLL.java
+javac -h . SampleDLL.java
+ls ~/Desktop/DLL/libSampleDLL.so
+java -Djava.library.path=/home/t4/Desktop/DLL SampeDLL
